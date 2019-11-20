@@ -7,3 +7,9 @@ public/
 hugo/public/
 dist/
 .tmp/
+
+site/data/webpack.json
+
+# Don't commit log files
+/npm-debug.log
+yarn-error.log

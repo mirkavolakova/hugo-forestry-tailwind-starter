@@ -8,7 +8,7 @@ sections:
   label: Post Types
 - type: directory
   path: site/content
-  label: Posts
+  label: Post
   create: all
   match: "*"
 - type: directory

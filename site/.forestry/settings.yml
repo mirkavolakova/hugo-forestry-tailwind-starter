@@ -7,15 +7,15 @@ sections:
   - type: heading
     label: Post Types
   - type: directory
-    path: site/content
+    path: site/content/pages
     label: Pages
     create: all
     match: "*"
   - type: directory
-    path: site/content
+    path: site/content/posts
     label: Posts
     create: all
-    match: "*"
+    match: "**/*"
 upload_dir: site/static/uploads
 public_path: "/uploads"
 front_matter_path: ""

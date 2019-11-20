@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		{{ $stylesheet := .Site.Data.webpack.main }}
-		{{ with $stylesheet.css }}
-			<link href="{{ relURL . }}" rel="stylesheet">
-		{{ end }}
-		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-		<title>{{ block "title" . }}
-			{{ .Site.Title }}
-		{{ end }}
-	</head>
-</html></title></head><body>{{ block "main" . }}{{ end }}{{ block "footer" . }}{{ end }}</body></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {{ $stylesheet := .Site.Data.webpack.main }} {{ with $stylesheet.css }}
+    <link href="{{ relURL . }}" rel="stylesheet" />
+    {{ end }}
+    <title>{{ .Site.Title }}</title>
+  </head>
+  <body>
+    {{ block "main" . }} {{ end }}
+  </body>
+</html>

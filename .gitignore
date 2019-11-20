@@ -9,6 +9,7 @@ dist/
 .tmp/
 
 site/data/webpack.json
+admin/
 
 # Don't commit log files
 /npm-debug.log

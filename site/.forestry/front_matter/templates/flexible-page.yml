@@ -4,7 +4,8 @@ hide_body: false
 fields:
 - name: content_module
   type: blocks
-  template_types: []
+  template_types:
+  - cards
   config:
     min: '1'
     max: 

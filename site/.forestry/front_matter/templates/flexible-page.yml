@@ -2,7 +2,7 @@
 label: Flexible Page
 hide_body: false
 fields:
-- name: content_module
+- name: flexible_content
   type: blocks
   template_types:
   - cards
@@ -10,6 +10,6 @@ fields:
   config:
     min: '1'
     max: 
-  label: Content Module
+  label: Flexible Content
 pages:
 - site/content/pages/test.md

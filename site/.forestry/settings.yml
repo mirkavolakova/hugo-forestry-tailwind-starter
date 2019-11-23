@@ -20,7 +20,7 @@ sections:
   create: all
   match: "*"
   templates:
-  - flexible-page
+  - flexible-content
 - type: directory
   path: site/content/posts
   label: Posts

@@ -1,4 +1,11 @@
 ---
 label: Flexible Page
 hide_body: false
-fields: []
+fields:
+- name: content_module
+  type: blocks
+  template_types: []
+  config:
+    min: '1'
+    max: 
+  label: Content Module

@@ -1,5 +1,4 @@
 +++
-draft = true
 [[content_module]]
 template = "stats"
 [[content_module.item]]

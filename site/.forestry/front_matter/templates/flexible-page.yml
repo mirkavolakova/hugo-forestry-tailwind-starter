@@ -1,10 +1,11 @@
 ---
-label: Flexible Page
+label: Flexible Content
 hide_body: false
 fields:
 - name: flexible_content
   type: blocks
   template_types:
+  - image-links
   - stats
   config:
     min: '1'

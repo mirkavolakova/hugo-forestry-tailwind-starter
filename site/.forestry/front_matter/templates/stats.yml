@@ -1,4 +1,28 @@
 ---
 label: Stats
 hide_body: false
-fields: []
+fields:
+- name: item
+  type: field_group_list
+  fields:
+  - name: number
+    type: number
+    label: Number
+    description: ''
+    default: '1'
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+      required: true
+  - name: label
+    type: text
+    config:
+      required: true
+    label: Label
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Item

@@ -1,4 +1,11 @@
 ---
 label: Flexible Content
 hide_body: true
-fields: []
+fields:
+- name: flexible_blocks
+  type: blocks
+  label: Flexible Blocks
+  template_types: []
+  config:
+    min: '1'
+    max: 

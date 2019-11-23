@@ -11,3 +11,5 @@ fields:
     min: '1'
     max: 
   label: Content Module
+pages:
+- site/content/pages/test.md

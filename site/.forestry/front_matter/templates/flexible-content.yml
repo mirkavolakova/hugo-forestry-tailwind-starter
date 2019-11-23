@@ -5,7 +5,8 @@ fields:
 - name: flexible_blocks
   type: blocks
   label: Flexible Blocks
-  template_types: []
+  template_types:
+  - image-links
   config:
     min: '1'
     max: 

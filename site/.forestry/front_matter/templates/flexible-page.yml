@@ -5,7 +5,6 @@ fields:
 - name: flexible_content
   type: blocks
   template_types:
-  - cards
   - stats
   config:
     min: '1'

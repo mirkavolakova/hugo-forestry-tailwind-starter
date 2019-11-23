@@ -2,7 +2,7 @@
 label: Flexible Content
 hide_body: false
 fields:
-- name: flexible_content
+- name: flexible
   type: blocks
   template_types:
   - image-links

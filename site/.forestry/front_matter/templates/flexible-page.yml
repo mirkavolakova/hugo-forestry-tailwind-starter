@@ -1,15 +1,6 @@
 ---
 label: Flexible Content
 hide_body: false
-fields:
-- name: flexible
-  type: blocks
-  template_types:
-  - image-links
-  - stats
-  config:
-    min: '1'
-    max: 
-  label: Flexible Content
+fields: []
 pages:
 - site/content/pages/test.md

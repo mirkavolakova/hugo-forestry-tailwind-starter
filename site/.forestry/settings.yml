@@ -7,10 +7,17 @@ sections:
 - type: heading
   label: Post Types
 - type: directory
+  path: site/content/places
+  label: Places
+  create: all
+  match: "**/*"
+- type: directory
   path: site/content/pages
   label: Pages
   create: all
   match: "*"
+  templates:
+  - flexible-page
 - type: directory
   path: site/content/posts
   label: Posts
